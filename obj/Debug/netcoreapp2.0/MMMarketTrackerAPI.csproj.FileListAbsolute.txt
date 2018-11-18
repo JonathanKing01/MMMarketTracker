@@ -1,0 +1,10 @@
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\bin\Debug\netcoreapp2.0\MMMarketTrackerAPI.deps.json
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\bin\Debug\netcoreapp2.0\MMMarketTrackerAPI.runtimeconfig.json
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\bin\Debug\netcoreapp2.0\MMMarketTrackerAPI.runtimeconfig.dev.json
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\bin\Debug\netcoreapp2.0\MMMarketTrackerAPI.dll
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\bin\Debug\netcoreapp2.0\MMMarketTrackerAPI.pdb
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.csproj.CoreCompileInputs.cache
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.AssemblyInfoInputs.cache
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.AssemblyInfo.cs
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.dll
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.pdb
