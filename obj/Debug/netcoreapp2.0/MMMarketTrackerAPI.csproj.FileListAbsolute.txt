@@ -8,3 +8,4 @@ C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcorea
 C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.AssemblyInfo.cs
 C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.dll
 C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.pdb
+C:\Users\GGPC\source\repos\MMMarketTrackerAPI\MMMarketTracker\obj\Debug\netcoreapp2.0\MMMarketTrackerAPI.csprojAssemblyReference.cache
