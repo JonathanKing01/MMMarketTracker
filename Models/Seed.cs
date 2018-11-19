@@ -23,7 +23,7 @@ namespace MMMarketTracker.Models
                     context.MarketSaleRecord.AddRange(
                     new MarketSaleRecord
                     {
-                        Item = "Orge ring",
+                        Item = "Ogre ring",
                         Price = 90000000,
                         Date = (new DateTime())
                     }

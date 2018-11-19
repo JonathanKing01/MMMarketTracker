@@ -22,11 +22,11 @@ namespace MMMarketTracker.Controllers
         }
 
         // GET: api/MarketSaleRecords
-        [HttpGet]
-        public IEnumerable<MarketSaleRecord> GetMarketSaleRecord()
-        {
-            return _context.MarketSaleRecord;
-        }
+        //[HttpGet]
+        //public IEnumerable<MarketSaleRecord> GetMarketSaleRecord()
+        //{
+        //    return _context.MarketSaleRecord;
+        //}
 
         // GET: api/MarketSaleRecords
         [HttpGet("{id}")]
@@ -47,10 +47,24 @@ namespace MMMarketTracker.Controllers
             return Ok(marketSaleRecord);
         }
 
-        // GET: api/MarketSaleRecords/item
-        [Route("item")]
+        // GET: api/MarketSaleRecords
         [HttpGet]
-        public async Task<List<string>> GetTags()
+        public async Task<IActionResult> GetMarketSaleRecordFromItemName(string item)
+        {
+            item = item.ToUpper();
+            IQueryable<MarketSaleRecord> sales = (from m in _context.MarketSaleRecord
+                                                  where m.Item.ToUpper().Contains(item)
+                                                  select m);
+            
+            var returned = await sales.ToListAsync();
+
+            return Ok(returned);
+        }
+
+        // GET: api/MarketSaleRecords/Item
+        [Route("items")]
+        [HttpGet]
+        public async Task<List<string>> GetItems()
         {
             var sales = (from m in _context.MarketSaleRecord
                          select m.Item).Distinct();
@@ -59,7 +73,7 @@ namespace MMMarketTracker.Controllers
 
             return returned;
         }
-
+        
         // PUT: api/MarketSaleRecords/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMarketSaleRecord([FromRoute] int id, [FromBody] MarketSaleRecord marketSaleRecord)
