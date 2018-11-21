@@ -73,7 +73,21 @@ namespace MMMarketTracker.Controllers
 
             return returned;
         }
-        
+
+        [Route("itemSearch/{name}")]
+        [HttpGet]
+        public async Task<List<string>> GetItems([FromRoute]string name)
+        {
+            name = name.ToUpper();
+            var sales = (from m in _context.MarketSaleRecord
+                         where m.Item.ToUpper().Contains(name)
+                         select m.Item).Distinct();
+
+            var returned = await sales.ToListAsync();
+
+            return returned;
+        }
+
         // PUT: api/MarketSaleRecords/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMarketSaleRecord([FromRoute] int id, [FromBody] MarketSaleRecord marketSaleRecord)
