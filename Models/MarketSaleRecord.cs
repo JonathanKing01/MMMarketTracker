@@ -10,6 +10,7 @@ namespace MMMarketTrader.Models
         public int Id { get; set; }
         public string Item { get; set; }
         public long Price { get; set; }
+        public string username { get; set; }
         public DateTime Date { get; set; }
     }
 }

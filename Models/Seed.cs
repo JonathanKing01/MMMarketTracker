@@ -25,7 +25,8 @@ namespace MMMarketTracker.Models
                     {
                         Item = "Ogre ring",
                         Price = 90000000,
-                        Date = (new DateTime())
+                        Date = (new DateTime()),
+                        username = "Jono King"
                     }
                 );
                 context.SaveChanges();
